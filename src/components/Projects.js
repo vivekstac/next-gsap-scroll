@@ -44,13 +44,13 @@ function Projects() {
 
             tl.to(wrapper, {
                 ease: "power2",
-                duration: 2,
+                duration: 4,
                 clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)"
             })
             // the "<" sign means that this animation of the timeline will play 
             // as soon the animation get triggered
             tl.to(image, {
-                duration: 2,
+                duration: 1,
                 scale: 1
             }, "<")
         });
