@@ -90,7 +90,7 @@ function ScrollSection() {
           <div ref={sectionRef1} className="scroll-section">
             <h3>Section 1</h3>
             <div className="image-container">
-              <Image ref={ sectionRef2} className="card__image" src={Imageone} />
+              <Image ref={sectionRef2} className="card__image" src={Imageone} alt={sectionRef2} />
               <span className="angle-img-one"></span>
               <span className="angle-img-two"></span>
             </div>

@@ -44,7 +44,7 @@ function Projects() {
 
             tl.to(wrapper, {
                 ease: "power2",
-                duration: 4,
+                duration: 0.2,
                 clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)"
             })
             // the "<" sign means that this animation of the timeline will play 
